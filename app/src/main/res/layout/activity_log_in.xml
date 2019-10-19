@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    android:orientation="vertical"
+    tools:context=".ActivityLogin"
+    android:background="@drawable/login_3"
+    tools:ignore="ExtraText">
+
+
+    <EditText
+
+        android:id="@+id/etEmailLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="269dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_gradinent_background"
+        android:ems="20"
+        android:hint="  Email"
+        android:inputType="textEmailAddress"
+        android:outlineSpotShadowColor="@color/whiteColor"
+        android:padding="10dp"
+        android:textAlignment="gravity"
+        android:textColor="@color/realwhiteColor"
+        android:textColorHighlight="@color/whiteColor"
+        android:textColorHint="@color/realwhiteColor"
+        android:textColorLink="@color/realwhiteColor"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etPasswordLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="229dp"
+        android:background="@drawable/edit_text_gradinent_background"
+        android:ems="10"
+        android:textColor="@color/realwhiteColor"
+        android:textColorHighlight="@color/realwhiteColor"
+        android:textColorLink="@color/realwhiteColor"
+        android:padding="10dp"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:outlineSpotShadowColor="@color/realwhiteColor"
+        android:textColorHint="@color/realwhiteColor" />
+
+    <Button
+        android:id="@+id/btnLogInLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="35dp"
+        android:alpha=".0"
+        android:background="@drawable/rounder2"
+        android:text="Log in " />
+
+    <ProgressBar
+        android:id="@+id/progressBarLogin"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="157dp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

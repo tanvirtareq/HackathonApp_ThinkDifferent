@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "322347219330",
+    "firebase_url": "https://thinkdifferent-435d0.firebaseio.com",
+    "project_id": "thinkdifferent-435d0",
+    "storage_bucket": "thinkdifferent-435d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322347219330:android:c58ac918bf44d4fe71379b",
+        "android_client_info": {
+          "package_name": "com.example.thinkdifferent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322347219330-ppk3oh4rb76b9i5fvgbi8io9ir8una0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thinkdifferent",
+            "certificate_hash": "c65ddf205f738bad21192449bb5756b1753363f7"
+          }
+        },
+        {
+          "client_id": "322347219330-njtkuctjbbui243brvj06tlhrasg1t5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIEHe7u2Bk_sIYDkhMrhRCqv_gYpdKyhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322347219330-njtkuctjbbui243brvj06tlhrasg1t5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
