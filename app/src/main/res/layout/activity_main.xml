@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/login_page_2"
+    tools:ignore="ExtraText">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        app:cardBackgroundColor="@android:color/black"
+        android:layout_marginBottom="133dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="53dp"
+            android:layout_height="57dp"
+            android:elevation="15dp"
+            android:fadingEdge="vertical"
+            android:paddingTop="1dp"
+            app:srcCompat="@drawable/ic_whatshot_black_24dp"
+            app:useCompatPadding="true" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="51dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center|start"
+            android:backgroundTint="#0D47A1"
+            app:srcCompat="@drawable/ic_person_add_black_24dp"
+            app:useCompatPadding="true" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="53dp"
+            android:layout_height="69dp"
+            android:layout_gravity="bottom|start"
+            android:backgroundTint="#FF0000"
+            android:backgroundTintMode="add"
+            android:paddingTop="1dp"
+            android:tint="#01579B"
+            app:srcCompat="@drawable/ic_verified_user_black_24dp"
+            app:useCompatPadding="true" />
+
+        <Button
+            android:id="@+id/btnLoginasStMain"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="55px"
+
+            android:text="Log in as Student"
+            android:textColor="@color/realwhiteColor"
+            app:useCompatPadding="true" />
+
+        <Button
+            android:id="@+id/btnSignupMain"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="446dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginLeft="-20dp"
+            android:text="Sign Up as Student"
+            android:textColor="@color/realwhiteColor"
+            app:useCompatPadding="true" />
+
+        <Button
+            android:id="@+id/btnADMINMain"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="613dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginLeft="-85dp"
+            android:layout_marginBottom="20dp"
+            android:text="Login as administrator"
+            android:textColor="@color/realwhiteColor"
+            app:useCompatPadding="true" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+
+
+
+
